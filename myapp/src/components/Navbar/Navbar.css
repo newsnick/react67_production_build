@@ -1,0 +1,12 @@
+.navbar-brand {
+  color: white;
+}
+.navbar-nav,
+.nav-link,
+.nav-item,
+.dropdown,
+.dropdown-menu,
+.dropdown-item,
+#navbarNavDropdown {
+  color: white;
+}
