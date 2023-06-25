@@ -1,5 +1,6 @@
 .navbar-brand {
-  color: white;
+  color: lightblue;
+  font-weight: bold;
 }
 .navbar-nav,
 .nav-link,
@@ -8,5 +9,10 @@
 .dropdown-menu,
 .dropdown-item,
 #navbarNavDropdown {
-  color: white;
+  color: lightblue;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #f8f9fa;
+  font-weight: bold;
 }

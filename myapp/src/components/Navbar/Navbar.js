@@ -3,22 +3,24 @@
 
 // export default function Navbar(props) {
 //   return (
-//     <nav className="navbar navbar-expand-lg  navbar-light bg-light">
-//       <div className="container-fluid d-flex justify-content-between">
-//         <a className="navbar-brand" href="/">
-//           {props.title}
-//         </a>
-//         <button
-//           className="navbar-toggler"
-//           type="button"
-//           data-bs-toggle="collapse"
-//           data-bs-target="#navbarNavDropdown"
-//           aria-controls="navbarNavDropdown"
-//           aria-expanded="false"
-//           aria-label="Toggle navigation"
-//         >
-//           <span className="navbar-toggler-icon"></span>
-//         </button>
+//     <nav className="navbar navbar-expand-lg navbar-light bg-light">
+//       <div className="container-fluid">
+//         <div className="d-flex justify-content-between w-50">
+//           <a className="navbar-brand" href="/">
+//             {props.title}
+//           </a>
+//           <button
+//             className="navbar-toggler"
+//             type="button"
+//             data-bs-toggle="collapse"
+//             data-bs-target="#navbarNavDropdown"
+//             aria-controls="navbarNavDropdown"
+//             aria-expanded="false"
+//             aria-label="Toggle navigation"
+//           >
+//             <span className="navbar-toggler-icon"></span>
+//           </button>
+//         </div>
 //         <div className="collapse navbar-collapse" id="navbarNavDropdown">
 //           <ul className="navbar-nav">
 //             <li className="nav-item">
@@ -58,17 +60,17 @@
 //                 </li>
 //                 <li>
 //                   <a className="dropdown-item" href="/moretools">
-//                     mirror text convert
+//                     mirror text
 //                   </a>
 //                 </li>
 //                 <li>
 //                   <a className="dropdown-item" href="/moretools">
-//                     bold text convert
+//                     bold text
 //                   </a>
 //                 </li>
 //                 <li>
 //                   <a className="dropdown-item" href="/moretools">
-//                     italic text convert
+//                     italic text
 //                   </a>
 //                 </li>
 //               </ul>
@@ -90,32 +92,32 @@
 //               >
 //                 <li>
 //                   <a className="dropdown-item" href="/case">
-//                     Convert to UpperCase
+//                     upperCase
 //                   </a>
 //                 </li>
 //                 <li>
 //                   <a className="dropdown-item" href="/case">
-//                     Convert To LowerCase
+//                     lowerCase
 //                   </a>
 //                 </li>
 //                 <li>
 //                   <a className="dropdown-item" href="/case">
-//                     Convert To Sentence Case
+//                     sentence case
 //                   </a>
 //                 </li>
 //                 <li>
 //                   <a className="dropdown-item" href="/case">
-//                     Convert To Capitalized Case
+//                     capitalized
 //                   </a>
 //                 </li>
 //                 <li>
 //                   <a className="dropdown-item" href="/case">
-//                     Convert To aLtErNaTiNg Case
+//                     aLtErNaTiNg Case
 //                   </a>
 //                 </li>
 //                 <li>
 //                   <a className="dropdown-item" href="/case">
-//                     Convert To InVeRsE Case
+//                     InVeRsE Case
 //                   </a>
 //                 </li>
 //               </ul>
@@ -133,11 +135,13 @@
 // }
 
 // Navbar.defaultProps = {
-//   title: 'NewNavbar',
-//   features: 'product links here',
+//   title: 'Convert Case',
+//   features: 'add tools',
 // }
+
 import React from 'react'
 import PropTypes from 'prop-types'
+import './Navbar.css' // Import the CSS file for Navbar styling
 
 export default function Navbar(props) {
   return (
